@@ -7,3 +7,29 @@
   <script src="js/scripts.js"></script>
   <title>Fortune Teller Quiz</title>
 </head>
+<body>
+  <div class="container">
+    <h1>Fortune Teller Quiz</h1>
+
+    <form id="events">
+      <div class="form-group">
+        <p>Select all of the unlucky events that have befallen you in the past month:</p>
+        <input type="checkbox" name="unlucky-events" value="toe"> Stubbing your toe.<br>
+        <input type="checkbox" name="unlucky-events" value="cat">Seeing a black cat.<br>
+        <input type="checkbox" name="unlucky-events" value="ladder">Walking under a ladder.<br>
+        <input type="checkbox" name="unlucky-events" value="mirror">Breaking a mirror.<br>
+      </div>
+      <div class="form-group">
+        <p>Select all of the lucky events that have befallen you in the past month:</p>
+        <input type="checkbox" name="lucky-events" value="clover">Finding a four-leaf clover.<br>
+        <input type="checkbox" name="lucky-events" value="rainbow">Seeing a rainbow.<br>
+        <input type="checkbox" name="lucky-events" value="promotion">Getting a promotion.<br>
+        <input type="checkbox" name="lucky-events" value="penny">Finding a penny.<br>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+
+    <div id="results"></div>
+
+  </div>
+</body>
